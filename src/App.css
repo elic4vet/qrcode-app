@@ -33,6 +33,7 @@ a {
   width: 100%;
   max-width: 300px;
   margin-top: 10px;
+  border-radius: 20px;
 }
 .container {
   background-color: var(--card-bg-color);
