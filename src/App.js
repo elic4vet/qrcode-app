@@ -22,8 +22,9 @@ function App() {
           rel="noreferrer"
         >
           <span className="credits"> Frontend Mentor </span>
-        </a>{" "}
-      </span>{" "}
+        </a>
+      </span>
+
       <span className="attribution-me">
         <a
           href="https://www.linkedin.com/in/eerkekoglou/"
