@@ -45,6 +45,7 @@ a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .container > * {
@@ -58,6 +59,8 @@ a {
 .attribution {
   font-size: 0.75rem;
   color: var(--dark--color);
+  display: flex;
+  flex-direction: column;
 }
 
 .attribution-me {
