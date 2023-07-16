@@ -31,7 +31,8 @@ a {
 
 .qrcode {
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
+  margin-top: 10px;
 }
 .container {
   background-color: var(--card-bg-color);
