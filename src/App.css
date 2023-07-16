@@ -2,15 +2,29 @@
   font-family: Outfit, sans-serif;
   --bg-color: hsl(212, 45%, 89%);
   --title-color: hsl(218, 44%, 22%);
+  --dark--color: hsl(215, 58%, 7%);
   --card-bg-color: hsl(0, 0%, 100%);
   --card-txt-color: hsl(220, 15%, 55%);
+  --footer-color: #d54b7c;
+  --footer-clr: #2c7dfa;
 }
 
 body {
   background-color: var(--bg-color);
   font-family: var(--font-family);
-  font-size: 16px;
+  font-size: 15px;
   color: var(--title-color);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--title-color);
+  text-decoration: none;
 }
 
 .qrcode {
@@ -28,4 +42,39 @@ body {
   margin: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.container > * {
+  margin: 10px;
+}
+
+.light-txt {
+  color: var(--card-txt-color);
+}
+
+.attribution {
+  font-size: 0.75rem;
+  color: var(--dark--color);
+}
+
+.attribution-me {
+  font-size: 0.75rem;
+  color: var(--title-color);
+}
+.attribution a {
+  color: var(--card-txt-color);
+}
+.attribution-me a,
+.attribution a {
+  text-decoration: none;
+}
+
+.credits {
+  color: var(--footer-clr);
+}
+
+.me {
+  color: var(--footer-color);
 }
