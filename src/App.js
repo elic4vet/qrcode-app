@@ -1,21 +1,41 @@
 import "./App.css";
+import qrcode from "./images/qrcode.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <div className="container">
+        <div className="card">
+          <img src={qrcode} alt="QR code" className="qrcode" />
+        </div>
+        <h1>Improve your front-end skills by building projects</h1>
+
+        <p className="light-txt">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <div className="attribution">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor{" "}
+          </a>{" "}
+          Coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/eerkekoglou/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Elisabeth Erkekoglou{" "}
+          </a>
+          .
+        </div>
+      </div>
     </div>
   );
 }
